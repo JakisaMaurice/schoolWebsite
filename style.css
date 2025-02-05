@@ -1,0 +1,135 @@
+/* #c7983c - theme color
+   #7a1316 - theme color */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: roboto, arial, sans-serif;
+}
+nav{
+  background-color: #7a1316;
+  color: whitesmoke;
+  padding: 10px;
+  /* text-align: right; */
+  height: 4rem;
+  word-spacing: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+nav a{
+  text-decoration: none;
+  color: aliceblue;
+  text-align: right;
+  transition: all 0.3s;
+}
+nav a:hover{
+  color: #7a1316;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+}
+.banner{
+  background: url('images/banner.jpeg') no-repeat center center/cover;
+  height: 100vh;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+.banner h1{
+  font-size: 3rem;
+  /* text-align: center; */
+  /* padding-top: 20%; */
+}
+.banner p{
+  /* color: whitesmoke; */
+  font-size: 1.5rem;
+  /* text-align: center; */
+  font-style: italic;
+}
+
+.banner .btn{
+  text-decoration: none;
+  padding: 5px;
+  background: #7a1316;
+  border-radius: 5px;
+  color: whitesmoke;
+  transition: all 0.3s;
+}
+
+.banner .btn:hover{
+  background: whitesmoke;
+  color: #7a1316;
+}
+footer{
+  background-color: #7a1316;
+  color: whitesmoke;
+  padding: 10px;
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+  line-height: 24px;
+}
+footer p{
+  font-size: 1rem;
+}
+footer a{
+  text-decoration: none;
+  color: whitesmoke;
+  transition: all 0.3s;
+  word-spacing: 10px;
+}
+footer a:hover{
+  color: #7a1316;
+  background: whitesmoke;
+  padding: 5px;
+  border-radius: 5px;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+footer ul{
+  list-style: none;
+  /* line-height: 24px; */
+}
+footer .footer-content .message-area form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+footer .footer-content .message-area form input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #7a1316;
+  width: 100%;
+}
+footer .footer-content .message-area form textarea{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #7a1316;
+  width: 100%;
+}
+footer .footer-content .message-area form button{
+  padding: 5px;
+  background: whitesmoke;
+  color: #7a1316;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s;
+  width: 100%;
+}
+footer .footer-content .message-area form button:hover{
+  background: #c7983c;
+  color: whitesmoke;
+}
