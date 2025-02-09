@@ -1,0 +1,222 @@
+/* #c7983c - theme color
+   #7a1316 - theme color */
+   *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: roboto, arial, sans-serif;
+    /* position: fixed; */
+  }
+  nav{
+    background-color: #7a1316;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: right;
+    height: 4rem;
+    word-spacing: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    
+    
+  }
+  nav a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: right;
+    transition: all 0.3s;
+  }
+  nav a:hover{
+    color: #7a1316;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+  }
+.frorm-containe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+
+  }
+  
+ 
+  .message-area {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .message-area h3 {
+    font-size: 1.8rem;
+    color: #7a1316;
+    margin-bottom: 20px;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  .form-group {
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #7a1316;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #c7983c;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(199, 152, 60, 0.5);
+  }
+  
+  textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+
+  button {
+    background-color: #7a1316;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c7983c;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .message-area {
+      padding: 20px;
+    }
+  
+    input, textarea {
+      font-size: 0.9rem;
+    }
+  }
+  footer {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+    line-height: 24px;
+    background: #333;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.3s;
+    word-spacing: 10px;
+  }
+  
+  footer a:hover {
+    color: #7a1316;
+    background: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content div {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  footer .footer-content .message-area form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    width: 100%;
+  }
+  
+  footer .footer-content .message-area form input,
+  footer .footer-content .message-area form textarea {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #7a1316;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  footer .footer-content .message-area form textarea {
+    min-height: 80px;
+  }
+  
+  footer .footer-content .message-area form button {
+    padding: 8px;
+    background: whitesmoke;
+    color: #7a1316;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    max-width: 300px;
+  }
+  
+  footer .footer-content .message-area form button:hover {
+    background: #7a1316;
+    color: whitesmoke;
+  }
+  
+  .copyright-info {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  
