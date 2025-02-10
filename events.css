@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+nav {
+    background: #7a1316;
+    color: white;
+    height: 70px;
+    text-align: right;
+    word-spacing: 5px;
+
+}
+nav  a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background:white ;
+    color: #7a1316;
+    border-radius: 25px;
+}
+nav .logo{
+    float: left;
+}
+.Events-banner{
+    background: url('img/3.jpg');
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.Events-banner h3{
+    text-align: center;
+    padding: 100px;
+    color: white;
+    font-size: 30px;
+    
+}
+.events{
+    width: 90%;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.events  h3{
+    text-align: center;
+    color: #c7983c;
+    font-size: 30px;
+    font-weight: 10px;
+}
+
+.events .event-events{
+    width: 100%;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.events .event-events .events1{
+    width: 50%;
+    /* height: 100vh; */
+}
+.events .event-events .events1 img{
+    width: 100%;
+    height: 20rem;
+    /* object-fit:fill; */
+}
+.events .event-events .events2{
+    width: 50%;
+}
+.events .event-events .events2 img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table th ,td{
+    background:#c7983c; 
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+}
+.events-content{
+    list-style: circle;
+    margin: 10px;
+}
+.events-content ul li{
+    list-style: circle;
+}
+footer{
+    background: #7a1316;
+}
+footer .footer-content{
+    background: #7a1316;
+    color: white;
+    /* height: 200px; */
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer .footer-content p{
+    margin: 0;
+}
+footer .footer-content {
+    flex: 1;
+}
+footer .footer-content a{
+    color: white;
+}
+footer .footer-content ul{
+    list-style: none;
+}
+
+footer .message{
+    /* display: flex;
+    flex-direction: row; */
+    
+    color: white;
+    /* height: 50px; */
+    text-align: center;
+    /* padding-top: 20px; */
+}
+footer .message form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+footer .message form input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+}
+footer .message form button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    color: #7a1316;
+}
+footer .copyright{
+    color: white;
+    text-align: center;
+}
