@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: color #f4f4f4;
+    color: #333;
+    font-weight: bolder;
+    font-size: large;
+    box-sizing: border-box;
+    font-family: roboto, arial, sans-serif;
+    display: contents;
+}
+nav{
+    background-color: #7a1316;
+    color: whitesmoke;
+    padding: 10px;
+    /* text-align: right; */
+    height: 4rem;
+    word-spacing: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  nav a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: right;
+    transition: all 0.3s;
+  }
+  nav a:hover{
+    color: #7a1316;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+  }
+header {
+    background-color:  #7a1316;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    margin: 0;
+}
+header p{
+    font-size: 18px;
+}
+section{
+    width: 80%;
+    margin: 20px auto;
+    background:rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+h2 {
+    color:  #7a1316
+}
+.banner{
+    background: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%
+    
+}
+footer {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+    line-height: 24px;
+    background: #333;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.3s;
+    word-spacing: 10px;
+  }
+  
+  footer a:hover {
+    color: #7a1316;
+    background: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content div {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  footer .footer-content .message-area form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    width: 100%;
+  }
+  
+  footer .footer-content .message-area form input,
+  footer .footer-content .message-area form textarea {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #7a1316;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  footer .footer-content .message-area form textarea {
+    min-height: 80px;
+  }
+  
+  footer .footer-content .message-area form button {
+    padding: 8px;
+    background: whitesmoke;
+    color: #7a1316;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    max-width: 300px;
+  }
+  
+  footer .footer-content .message-area form button:hover {
+    background: #7a1316;
+    color: whitesmoke;
+  }
+  
+  .copyright-info {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
