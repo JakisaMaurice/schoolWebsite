@@ -1,0 +1,71 @@
+.admissions{
+  background: url('images/admissions.jpeg') no-repeat center/cover;
+  margin-bottom: 2rem;
+}
+section{
+  margin-bottom: 2rem;
+}
+.admissions_hero{
+  height: 70vh;
+  width: 100%;
+  text-align: center;
+  /* color: #c7983c; */
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+article{
+  backdrop-filter: blur(2px);
+}
+main{
+  margin: 0 auto;
+  width: 95%;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+  color: #c7983c;
+}
+.admissions .admissions_hero .page-description h2{
+  font-size: 2rem;
+  color: #c7983c;
+}
+.admissions .admissions_hero .page-description p{
+  font-size: 1.2rem;
+}
+ul{
+  margin-left: 20px;
+}
+.admissions_process ul li{
+  list-style: none;
+  margin-left: -10px;
+}
+.submit_application ul li{
+  list-style: circle;
+}
+.key_dates{
+  margin-bottom: 20px;
+}
+.calendar {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  width: 150px;
+  align-items: center;
+}
+.calendar-header {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+.calendar-date .day {
+  font-size: 24px;
+  font-weight: bold;
+}
+.calendar-date .month, .calendar-date .year {
+  font-size: 14px;
+}
