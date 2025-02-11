@@ -5,10 +5,12 @@
     font-family: arial, sans-serif;
 }
 nav {
+    display: flex;
     background: #7a1316;
     color: white;
     height: 70px;
-    text-align: right;
+    justify-content: space-between;
+    padding: 0 20px;
     word-spacing: 5px;
 
 }
@@ -22,7 +24,13 @@ nav a:hover{
     border-radius: 25px;
 }
 nav .logo{
-    float: left;
+    display:flex;
+    align-items: center;
+}
+nav .logo img{
+     width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 .Events-banner{
     background: url('images/3.jpg');
