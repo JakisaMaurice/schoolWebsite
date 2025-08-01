@@ -3,6 +3,9 @@
 ## Project Description
 This project is a simple school website built using HTML and CSS. It aims to provide a basic structure for school-related web pages.
 
+## View site
+- https://jakisamaurice.github.io/schoolWebsite/ 
+
 ## Features
 - Home page with an introduction
 - About page with school information
@@ -46,4 +49,5 @@ This project is currently not licensed. You may add a license if needed.
 
 ## Contact
 For any inquiries or feedback, please contact [jakisamaurice@gmail.com](mailto:jakisamaurice@gmail.com).
+
 
